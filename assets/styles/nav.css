@@ -1,9 +1,14 @@
 /* Drop Down Refrence-https://www.w3schools.com/howto/howto_css_dropdown.asp */
-.dropdown {
-position: relative;
-display: inline-block;
+nav {
+    overflow: hidden;
+    background-color: blueviolet;
 }
 
+.dropdown {
+position: relative;
+    display: inline-block;
+}
+  
 .dropdown-content {
 display: none;
 position: absolute;
