@@ -48,3 +48,7 @@ section p {
 .lists {
     float: left;
 }
+
+li {
+    text-align: left;
+}
