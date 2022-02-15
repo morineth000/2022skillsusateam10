@@ -1,3 +1,23 @@
 body { 
     margin: 0;
+    color: #2E2B2B;
+}
+
+footer{
+    width: 100%;
+    background-color: #2E2B2B;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer > img{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+footer > h3{
+    color: white;
+}
+.social-feed > img{
+    
 }

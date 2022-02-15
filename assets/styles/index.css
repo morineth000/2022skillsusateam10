@@ -1,0 +1,44 @@
+/* This is for the icon navigation */
+.icon-navigation{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+    margin-top: 30px;
+    height: 100%;
+}
+/* 
+.icon-navigation >.application{
+    width: 70%;
+}
+.icon-navigation > .covid{
+    width: 50%;
+}
+.icon-navigation > .virtual{
+    width: 50%;
+}
+.icon-navigation > .orientation{
+    width: 50%;
+}
+.icon-navigation > .counselors{
+    width: 50%;
+} */
+
+.icon-navigation > .images{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.icon-navigation > .words{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon-navigation > .images > .application{
+    transition: .5s ;
+}
+.icon-navigation > .images> .application:hover{
+    box-shadow: 10px 10px 10px #183153;
+    transition: .5s ;
+}
+
+
+
